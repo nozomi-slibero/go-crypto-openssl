@@ -152,6 +152,9 @@ func TestMD5OneShot(t *testing.T) {
 			}
 		})
 	}
+	SetFIPS(true)
+	fmt.Println("OpenSSL version:", VersionText())
+	fmt.Println("FIPS enabled:", FIPS())
 }
 
 type cgoData struct {
