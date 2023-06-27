@@ -10,7 +10,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {}
 	},
-	"onCreateCommand": "sudo sh ${containerWorkspaceFolder}/scripts/openssl.sh ${GO_OPENSSL_VERSION_OVERRIDE}"
+"onCreateCommand": "sudo sh ${containerWorkspaceFolder}/scripts/openssl.sh ${GO_OPENSSL_VERSION_OVERRIDE} && sh ${containerWorkspaceFolder}/scripts/test.sh"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
