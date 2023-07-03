@@ -25,6 +25,10 @@ aes192
 aes192-wrap
 aes256
 aes256-wrap
+aes-256-gcm
+aes-128-gcm
+aes-128-xts
+aes-256-xts
 sha1
 sha256
 sha512
